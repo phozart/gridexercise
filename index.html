@@ -1,31 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Grid</title>
-    <link
-      rel="stylesheet"
-      href="styles.css"
-    />
-  
-</head>
-<body>
-    <main class="content" id="target">
-    </main>
-    <script>
-        let gridsize = 100;
-        let pos = 1;
-        createGrid();
-        function createGrid() {
-            const main = document.getElementById('target');
-            for (let i = 1; i<=gridsize; i++){
-                var div = document.createElement('div');
-                div.id = 's' + i;
-                div.innerText = i;
-                main.appendChild(div);
-            }
-        }
-
-        
-    </script>
-</body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="content" id="target"></main>
+    <script src="grid.js"></script>
+  </body>
 </html>
+  
